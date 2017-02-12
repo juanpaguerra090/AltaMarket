@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Alta - Food &amp Wine Market</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="vendor/flaticon/flaticon.css" rel="stylesheet">
+
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+    <script>
+        // Initialize Firebase HOSTING
+        var config = {
+            apiKey: "AIzaSyAK5Imph9h-Nsvsb2XEd3zlJZazvyawyGs",
+            authDomain: "alta-market.firebaseapp.com",
+            databaseURL: "https://alta-market.firebaseio.com",
+            storageBucket: "alta-market.appspot.com",
+            messagingSenderId: "417552664965"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+
+<body id="page-top">
+
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/Alta_logo.png" alt="" width="6%">
+                </a>
+
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a style="color: #C43180" class="page-scroll" href="#about">Nosotros </a>
+                    </li>
+                    <li>
+                        <a style="color: #C43180" class="page-scroll" href="#services">Menú</a>
+                    </li>
+                    <li>
+                        <a style="color: #C43180" class="page-scroll" href="#portfolio">Galería</a>
+                    </li>
+                    <li>
+                        <a style="color: #C43180" class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <header>
+        <div class="header-content">
+            <div class="fullscreen-bg">
+
+            </div>
+            <div class="header-content-inner">
+                <h1 style="color: black" id="homeHeading"> Urbano. Fresco. Contemporáneo.</h1>
+                <hr>
+                <p style="color: white background-color: black"> Nuevo restaurante con sabor único!, prepara tu paladar, que ya estamos por abrir nuestras puertas. </p>
+                <a href="#contact" class="btn btn-primary btn-xl page-scroll">Te Esperamos</a>
+            </div>
+        </div>
+    </header>
+
+    <section style="background-color: #AB1F00" class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Alta - Food &amp Wine Market</h2>
+                    <hr class="light">
+                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora itaque laboriosam sunt architecto dolor numquam ipsam laudantium quae quisquam quia reiciendis excepturi reprehenderit voluptas id, nisi commodi nihil, odio ipsa.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/Alta_logo.png" alt="" width="39%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Menú</h2>
+                    <h4>De todo, para todos.</h3>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <!-- Button trigger modal -->
+                        <button type="button" style="background-color: #00000000" class="btn" data-toggle="modal" data-target="#myModal">
+                            <i class="flaticon-entree"></i>
+                        </button>
+                        <!-- Modal <-->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">Entradas</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <h3>Entradas</h3>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+                <i class="flaticon-food"></i>
+                <h3>Sopas &amp Ensaladas</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+                <!-- Button trigger modal -->
+                <button type="button" style="background-color: #00000000 " class="btn" data-toggle="modal" data-target="#myModal">
+                            <i class="flaticon-animals"></i>
+                        </button>
+                <!-- Modal <-->
+                </-->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">Entradas</h4>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <i class="flaticon-animals"></i>
+                <h3>Del Mar</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+                <i class="flaticon-fruit"></i>
+                <h3>Postres</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Entrada
+                                </div>
+                                <div class="project-name">
+                                    Guacamole
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Del Mar
+                                </div>
+                                <div class="project-name">
+                                    Molcajete de Camarones
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ensaladas
+                                </div>
+                                <div class="project-name">
+                                    Ensalada de Atuún
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Postre
+                                </div>
+                                <div class="project-name">
+                                    Cheesecake de Fresa
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Del Mar
+                                </div>
+                                <div class="project-name">
+                                    Filete de Pescado
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Entrada
+                                </div>
+                                <div class="project-name">
+                                    Carpaccio de Salmón
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Reserva Ya!</h2>
+                    <hr class="primary">
+                    <p>Av. Francisco Medina Ascencio #3974</p>
+                    <p>Col. Villa de las Flores, Puerto Vallarta, Jal., Mex.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>(322) 221.1872</p>
+                </div>
+
+                <div class="col-lg-4  text-center">
+                    <br>
+                    <p><button disabled type="button" class="btn btn-info btn-lg" style="background-color: #db6b2c" data-toggle="modal" data-target="#myModal2">Reserva Ya!</button></p>
+                </div>
+
+                <div class="col-lg-4    text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a >info@altamarket.mx</a></p>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Reserva en Alta Market</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <div id="resmio-alta-market"><iframe src="https://app.resmio.com/alta-market/widget?source=app.resmio.com&amp;resourceGroup=&amp;backgroundColor=%23fff&amp;color=&amp;linkBackgroundColor=&amp;blockhouse=&amp;commentsDisabled=" width="275px" height="400px"
+                                        frameborder="0">&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;</iframe></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Modal para Reservaciones -->
+        </div>
+    </section>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
