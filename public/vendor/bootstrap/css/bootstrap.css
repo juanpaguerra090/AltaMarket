@@ -113,9 +113,12 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0;
+  margin: 10;
   font: inherit;
   color: inherit;
+  paddin: 10;
+  padding-bottom: 20;
+
 }
 button {
   overflow: visible;
@@ -125,7 +128,7 @@ select {
   text-transform: none;
 }
 button,
-html input[type="button"],
+html input[type=""],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
@@ -3001,9 +3004,9 @@ select[multiple].input-lg {
   }
 }
 .btn {
-  display: inline-block;
+  display: inline-flex;
   padding: 6px 12px;
-  margin-bottom: 0;
+  margin-bottom: 3;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -3019,7 +3022,7 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 1px;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3060,6 +3063,9 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  padding: 15px 30px;
+  border-bottom: 20px;
+  border-radius: 1px;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -3077,7 +3083,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: #ff0000;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -3461,7 +3467,7 @@ fieldset[disabled] .btn-link:focus {
 }
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
-input[type="button"].btn-block {
+input[type=""].btn-block {
   width: 100%;
 }
 .fade {
