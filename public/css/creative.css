@@ -296,7 +296,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
   padding: 15px 30px;
   border-bottom: 8px;
-  border-radius: 0px;
+  border-radius: 100px;
 }
 .btn-default:hover,
 .btn-default:focus,
